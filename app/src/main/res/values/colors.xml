@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background of the adaptive launcher icon -->
+    <color name="ic_launcher_background">#1E2A4A</color>
+
+    <!-- Brand / theme accent -->
+    <color name="brand_orange">#FF8A3D</color>
+
+    <!-- Permission status text colors -->
+    <color name="status_green">#2E7D32</color>
+    <color name="status_red">#C62828</color>
+</resources>
