@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, ORIGINAL ] # Added ORIGINAL branch here
   pull_request:
-  workflow_dispatch:
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
 
 jobs:
   build:
