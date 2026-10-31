@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blue Light Filter</string>
+    <string name="header_subtitle">Warms your screen colors to reduce eye strain</string>
+
+    <string name="permission_status_granted">Overlay permission granted. The filter can run.</string>
+    <string name="permission_status_missing">The overlay permission is required so the filter can be drawn above other apps.</string>
+    <string name="grant_permission">Grant overlay permission</string>
+    <string name="permission_toast">Allow display over other apps first, then turn the filter on.</string>
+    <string name="notification_permission_denied">The ongoing notification will be hidden, but the filter still works.</string>
+
+    <string name="enable_filter">Turn on blue light filter</string>
+    <string name="intensity_label">Intensity</string>
+    <string name="warmth_label">Warmth</string>
+    <string name="warmth_soft">Soft</string>
+    <string name="warmth_medium">Medium</string>
+    <string name="warmth_deep">Deep</string>
+    <string name="percent_format" translatable="false">%1$d%%</string>
+    <string name="warmth_format" translatable="false">%1$d%% (%2$s)</string>
+
+    <string name="footer_note">The filter keeps running in the background. To turn it off, use the switch above or the Turn off button in the notification.</string>
+
+    <string name="notification_channel_name">Blue light filter status</string>
+    <string name="notification_channel_description">Shows an ongoing notification while the blue light filter is active.</string>
+    <string name="notification_title">Blue light filter is on</string>
+    <string name="notification_text">A warm tint is being applied to your screen.</string>
+    <string name="notification_action_turn_off">Turn off</string>
+</resources>

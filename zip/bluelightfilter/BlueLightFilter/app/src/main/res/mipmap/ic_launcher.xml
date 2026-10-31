@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon fallback for API 24-25 (no adaptive icons there):
+     a night-sky circle with the same moon and stars. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Night sky background circle -->
+    <path
+        android:fillColor="#1E2A4A"
+        android:pathData="M54,6 A48,48 0 1 0 54,102 A48,48 0 1 0 54,6 Z" />
+    <!-- Crescent moon -->
+    <path
+        android:fillColor="#FFB259"
+        android:pathData="M64,32 A22,22 0 1 0 64,76 A29,29 0 0 1 64,32 Z" />
+    <!-- Stars -->
+    <path
+        android:fillColor="#FFE9C7"
+        android:pathData="M76,36 m-3.5,0 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0" />
+    <path
+        android:fillColor="#FFE9C7"
+        android:pathData="M82,52 m-2.5,0 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0" />
+</vector>
